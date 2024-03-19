@@ -51,21 +51,23 @@
             // 
             // myTextBox1
             // 
+            this.myTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.myTextBox1.Location = new System.Drawing.Point(223, 127);
             this.myTextBox1.Name = "myTextBox1";
-            this.myTextBox1.Size = new System.Drawing.Size(309, 22);
+            this.myTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.myTextBox1.Size = new System.Drawing.Size(309, 30);
             this.myTextBox1.TabIndex = 1;
             // 
             // myTextBox2
             // 
-            this.myTextBox2.Location = new System.Drawing.Point(223, 155);
+            this.myTextBox2.Location = new System.Drawing.Point(223, 188);
             this.myTextBox2.Name = "myTextBox2";
             this.myTextBox2.Size = new System.Drawing.Size(309, 22);
             this.myTextBox2.TabIndex = 2;
             // 
             // resultTextBox
             // 
-            this.resultTextBox.Location = new System.Drawing.Point(223, 183);
+            this.resultTextBox.Location = new System.Drawing.Point(223, 216);
             this.resultTextBox.Name = "resultTextBox";
             this.resultTextBox.ReadOnly = true;
             this.resultTextBox.Size = new System.Drawing.Size(309, 22);
